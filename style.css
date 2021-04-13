@@ -42,7 +42,6 @@ main {
     #introduction {margin-top: 0;}
     #navbar header { width: auto; font-size: 1.7rem !important;}
     #navbar {
-        height: 25vh;
         overflow-x: visible;
         overflow-y: scroll;
         padding: 5px 10px !important;
@@ -53,6 +52,7 @@ main {
         height: 100vh;
     }
     #footer {padding: 0px;}
+    nav {max-height: 250px;}
 }
 
 nav {overflow-y:auto;}
