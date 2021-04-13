@@ -34,6 +34,7 @@ main {
     display: grid;
     grid-template-areas: "nav main";
     grid-template-columns:  repeat(2fr);
+    overflow-y: hidden; 
 }
 
 @media (max-width: 900px) {
@@ -42,7 +43,7 @@ main {
     #navbar header { width: auto; font-size: 1.7rem !important;}
     #navbar {
         height: 25vh;
-        overflow-x:visible;
+        overflow-x: visible;
         overflow-y: scroll;
         padding: 5px 10px !important;
     }
@@ -54,15 +55,15 @@ main {
     #footer {padding: 0px;}
 }
 
+nav {overflow-y:auto;}
 #navbar {
-    max-height: inherit;
+    height: calc(100vh - 20px);
     min-width: 300px;
     color: whitesmoke;
     background-color: rgb(199, 36, 36);
     padding: 20px;
     display: flex;
     flex-direction: column;
-    overflow-y: hidden;
 }
 
 #navbar ul {
