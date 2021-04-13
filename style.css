@@ -20,7 +20,10 @@ code {
   }
 
 nav {grid-area: nav; font-family: 'Rubik';}
-main {grid-area: main; font-family: 'Rubik';}
+main {
+    grid-area: main; font-family: 'Rubik';
+    padding: 0 3.5vw !important;
+}
 #container {
     top: 0;
     left: 0;
@@ -34,6 +37,7 @@ main {grid-area: main; font-family: 'Rubik';}
 }
 
 @media (max-width: 900px) {
+    main {padding: 0}
     #introduction {margin-top: 0;}
     #navbar header { width: auto; font-size: 1.7rem !important;}
     #navbar {
