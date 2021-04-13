@@ -13,7 +13,7 @@ code {
     border-radius: 5px;
     box-decoration-break: clone;
     box-sizing: border-box;
-    font-family: consolas, "Liberation Mono", courier, monospace;
+    font-family: consolas, "Liberation Mono", courier, monospace !important;
     font-size: 16px;
     overflow-wrap: break-word;
     padding: 10px;
