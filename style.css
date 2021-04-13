@@ -42,8 +42,7 @@ main {
     #introduction {margin-top: 0;}
     #navbar header { width: auto; font-size: 1.7rem !important;}
     #navbar {
-        overflow-x: visible;
-        overflow-y: scroll;
+        overflow: hidden;
         padding: 5px 10px !important;
     }
     #container {
