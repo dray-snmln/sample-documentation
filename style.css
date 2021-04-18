@@ -1,7 +1,7 @@
 * {scroll-behavior: smooth;}
 li a, header a {text-decoration: none; color: rgb(255, 255, 255);}
 li a:hover, header a:hover {color: rgb(206, 179, 179)}
-#top {position: static; top: 0;}
+#top {position: static; top: 0; left: 0;}
 code { 
     display: block;
     text-align: left;
